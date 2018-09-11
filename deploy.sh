@@ -12,7 +12,10 @@ if [ $# -eq 1 ]
 fi
 
 git commit -m "$msg"
-git push origin master
+
+cd docs
+git rm -rf *
+cd ..
 
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
@@ -29,3 +32,4 @@ git push origin master
 
 # Come Back up to the Project Root
 cd ..
+
