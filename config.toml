@@ -129,36 +129,65 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "Research"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    subtitle = "本實驗室近年研究方向與成果"
+    endpoint = "Be part<br>of our<br>lab!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
+      img = "deep-learning.jpg"
       date = "Now"
       title = "深度學習"
-      description = "是機器學習研究中的一個新的領域，其概念源於類神經網路的研究。在電腦視覺、影像處理等領域都非常有發展潛力。 深度學習方法被用來模擬人類大腦的思考方式，模仿人腦的機制來解釋數據，例如圖像，聲音和文本。以圖像為例，通過組合低階的影像特徵， 發展出中階的邊緣、形狀等概念，進而學習高階的意涵，像是物件或人臉。"
+      description = "是機器學習研究中的一個新的領域，其概念源於類神經網路的研究。在電腦視覺、影像處理等領域都非常有發展潛力。深度學習方法被用來模擬人類大腦的思考方式，模仿人腦的機制來解釋數據，例如圖像，聲音和文本。以圖像為例，通過組合低階的影像特徵，發展出中階的邊緣、形狀等概念，進而學習高階的意涵，像是物件或人臉。"
 
     [[params.about.events]]
-      img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "scribble-lines-to-painting.jpg"
+      date = "2017"
+      title = "Be an Artist! Scribble Lines to Painting."
+      description = "我們提出一個全自動化的系統，可以將隨意畫的塗鴉轉化成一幅畫作。然而這是一個嚴峻的挑戰，原因在於輸入的塗鴉可能是非常雜亂並且隱藏著多重物件的， 因此找到這些重複的線條與多重的物件之間的關聯性並不是件簡單的事。在系統當中，我們結合使用了 selective search、sparse coding 與 Convolutional neural network (CNN)， 其中我們運用 selective search 來找尋塗鴉當中可能是物件的部分；接著利用 sparse coding 來找到相對應的元素；最後藉由 CNN 套上欲轉換的風格。最終的實驗結果顯示我們所使用的方法有優越的性能並且產生具有藝術性的作品。"
 
     [[params.about.events]]
-      img = "3.jpg"
-      date = "December 2012"
+      img = "action-recognition-with-sensor-data.jpg"
+      date = "2016"
       title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = "隨著近年來穿戴式裝置的盛行，透過它所收集的感測來做動作辨識的應用也越趨的重要。而電腦視覺領域中，人體動作辨識也越來越顯得重要，在動作辨識中，也開始大量使用多軸穿戴裝置收集的感測資料來進行動作辨識。深度學習被視為機器學習中，最有潛力解決許多電腦視覺問題的方法。卷積神經網絡 (convolutional neural network, CNN) 是深度學習中最受關注的方法之一。我們提出了 MP-CNN 的架構，此架構包含了 D-CNN 和 S-CNN 兩個新的組件來對感測資料進行動作辨識，在 D-CNN 中，我們於訓練階段利用 GMM 來得到每個動作的分布，之後再經由 GMR 和 GMMs 來對輸入的訊號資料分區以及通道校準，並將每個輸入資訊映對到相對應的 CNN 通道。因此，我們也提出一個基於 LZW 的 S-CNN 架構，使用 CNN 來建構出狀態間，輸入資訊和轉移概率的關係，來自動轉換感測資料到狀態轉移概率。最後再將 D-CNN 和 S-CNN 結合成 MP-CNN 來提升整體架構的效能。"
 
     [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "clothes-style-analysis.jpg"
+      date = "2016"
+      title = "衣著樣式分析與流行元素擷取"
+      description = "隨著衣服和配飾樣式越來越多，無論實體或網路店家，消費者要在眾多樣式中找尋自己喜好的樣式將花費大量的時間，因此若消費者能給一些喜歡的服飾照片，系統分析照片中服飾找出相關資訊（如店家地址、搭配相關配飾等）。對店家而言，若能收集到顧客相關服裝風格就可以根據這份資訊調整進貨款式和店裡的擺設，進一步根據消費者的喜好推薦相關配飾給消費者並節省消費者去尋找能搭配相關配飾時間。對成衣商而言，能透過各個店家收集的資料加以分析就能知道那些款式受歡迎那些款式不受歡迎，進而成為下一批新款式的設計參考。"
 
+    [[params.about.events]]
+      img = "hoi-for-medical-rehabilitation.png"
+      date = "2016-2018"
+      title = "基於復健醫療的人與物件互動辨識深度學習方法"
+      description = "現今社會逐步邁向高齡化後，銀髮族的健康照護是大家都很重視的議題。我們計畫著眼於銀髮族的復健運動與娛樂，希望藉由分析人與物件的互動行為，進一步分析銀髮族使用復健道具或運動器具的運動情形。第一是衡量操作的正確性，期望確切達到復健運動的目的與功能。分析使用復健運動器材的方式，系統有機會提出警示或提供正確姿勢的語音提示，達到復健運動的期望功效；第二是藉由分析的結果提供使用者回饋，如得分高低、任務達成或語音鼓勵，將復健運動轉換成娛樂性較高的方式，增添銀髮族從事復健運動的趣味性，延長使用者復健活動的時間，進一步激勵患者正確並樂於使用復健設施。"
+
+    [[params.about.events]]
+      img = "outdoor-low-resolution-face-recognition.png"
+      date = "2016"
+      title = "戶外低解析人臉辨識"
+      description = "此計畫目標是對於低解析度的人臉影像進行比對，驗證是否為同一人。現今在未受限制的環境中，人臉辨識的效能常會因為姿勢的因素而下降，所以我們建立一個姿勢正規化的方法來復原任意的臉部角度，藉此回復任意狀態的臉部角度以增加人臉辨識的效能。而此計畫使用了兩種 Caffe 之模型架構: Matching-Convolutional NeuralNetwork (M-CNN)、Siamese Neural Network (SNN)。最後經實驗結果得到 SNN 模型準確率達 90% 以上，與 M-CNN 相較之下較高。"
+
+    [[params.about.events]]
+      img = "image-multi-label-classification.jpg"
+      date = "2015"
+      title = "多重屬性影像分類"
+      description = "進行人臉圖片分類時，欲辨識的圖片中難免會有一些配件，如：太陽眼鏡、圍巾、耳環等，或是外在環境因素，如：光線、角度等， 這些配件或是環境因素在人臉圖片中稱之為多重屬性。本實驗室利用既有的 Local Discriminant Embedding (LDE) 演算法作為延伸，達到多重屬性分類的目的。"
+
+    [[params.about.events]]
+      img = "sparse-coding.jpg"
+      date = "Old"
+      title = "稀疏編碼 Sparse Coding"
+      description = "近年來 sparse coding 在電腦視覺以及影像處理的領域相當受到歡迎，sparse coding 由輸入資料、dictionary 以及輸入資料對應的線性組合組成。sparse coding 可以用來影像除噪 (denoising)、影像復原 (restoration)，以及影像分類 (classification) 等工作。本實驗室基於稀疏編碼著重於二個研究方向：多重屬性影像分類以及巨量資料的稀疏編碼。"
+
+    [[params.about.events]]
+      img = "big-data-sparse-coding.jpg"
+      date = "Old"
+      title = "巨量資料的稀疏編碼"
+      description = "隨著巨量資料的 dataset 出現，如: ImageNet，設計一個能夠處理大量資料並可以有效分類的分類器是電腦視覺領域的一個重大議題。而 sparse coding 的表現仰賴於 dictionary 的質量，若能習得較好的 dictionary，sparse coding 的表現自然就好。本實驗室針對巨量資料的研究方向為巨量資料的稀疏編碼表示法以及巨量資料的稀疏編碼字典學習。"
 
   # Team section
   [params.team]
