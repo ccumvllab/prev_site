@@ -9,7 +9,7 @@ publishDir = "docs"
 googleAnalytics = ""
 
 [params]
-  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # You can use Markdown syntax for urls [text](//url.to/source)  or
   # most longer texts.
   #
   # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
@@ -68,8 +68,8 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
+      url = "#"
+      name = "Demo"
       weight = 10
 
 
@@ -303,7 +303,7 @@ She worked at Pied Piper for years until they went belly up."""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "&copy 2018 CCU MVL Lab."
+    copyright = "&copy;2018 CCU MVL Lab."
 
 #    [[params.footer.social]]
 #      icon = "fa-twitter"
