@@ -2,7 +2,7 @@
 baseurl = "https://ccumvllab.github.io/site"
 languageCode = "en-us"
 title = "Machine Vision and Learning Lab"
-theme = "hugo-agency-theme"
+theme = "mvl-agency"
 publishDir = "docs"
 
 # Enter your tracking code to enable Google Analytics
@@ -84,7 +84,7 @@ googleAnalytics = ""
 
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "Services"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
@@ -110,7 +110,7 @@ googleAnalytics = ""
 
   # Portfolio section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
@@ -128,7 +128,7 @@ googleAnalytics = ""
     # About section
   [params.about]
     enable = true
-    title = "About"
+    title = "Research"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     endpoint = "Be part<br>of our<br>story!"
 
@@ -214,7 +214,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
