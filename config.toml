@@ -137,9 +137,9 @@ googleAnalytics = ""
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "Now"
+      title = "深度學習"
+      description = "是機器學習研究中的一個新的領域，其概念源於類神經網路的研究。在電腦視覺、影像處理等領域都非常有發展潛力。 深度學習方法被用來模擬人類大腦的思考方式，模仿人腦的機制來解釋數據，例如圖像，聲音和文本。以圖像為例，通過組合低階的影像特徵， 發展出中階的邊緣、形狀等概念，進而學習高階的意涵，像是物件或人臉。"
 
     [[params.about.events]]
       img = "2.jpg"
