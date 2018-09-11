@@ -34,7 +34,7 @@ googleAnalytics = ""
   # 404 error customization
   [params.error404]
     heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
+    text = "Please visit [this page](/site/)"
 
   # Optional piwik tracking
   #[params.analytics.piwik]
@@ -303,7 +303,7 @@ She worked at Pied Piper for years until they went belly up."""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0. &copy Natinoal Chung Cheng University Machine Vision Learning Lab."
+    copyright = "&copy 2018 CCU MVL Lab."
 
 #    [[params.footer.social]]
 #      icon = "fa-twitter"
