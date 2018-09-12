@@ -130,7 +130,7 @@ googleAnalytics = ""
     enable = true
     title = "Research"
     subtitle = "本實驗室近年研究方向與成果"
-    endpoint = "Be part<br>of our<br>lab!"
+    endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -194,52 +194,59 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    title = "Lab Team Members"
+    subtitle = "Welcome to join us!"
+    #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
+      img = "Chen.Kuo.Chiang.jpg"
+      name = "江振國 (Chiang, Chen-Kuo)[http://www.cs.ccu.edu.tw/~ckchiang/]"
+      position = "Assistant Professor"
       scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
-      # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        "Ph.D., National Tsing Hua University, Taiwan"
+        "Office: EA414 (extension: 33111)"
+        "Email: ckchiang_AT_cs.ccu.edu.tw"
       ]
 
     [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+      img = "Zhen-An.jpg"
+      name = "朱政安 (Zhu, Zhen-An)"
+      position = "Ph.D student"
 
     [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+      img = "Hao-Ting.jpg"
+      name = "李皓庭 (Li, Hao-Ting)"
+      position = "Ph.D student"
+
+    [[params.team.members]]
+      img = "Chan-Shih.jpg"
+      name = "胡展碩 (Hu, Chan-Shih)"
+      position = "master student"
+
+    [[params.team.members]]
+      img = "Zi-Ting.jpg"
+      name = "黃子庭 (Huang, Zi-Ting)"
+      position = "master student"
+
+    [[params.team.members]]
+      img = "Wen-Hsiu.jpg"
+      name = "楊文綉 (Yang Wen-Hsiu)"
+      position = "master student"
+
+    [[params.team.members]]
+      img = "Chu-En.jpg"
+      name = "陳主恩 (Chen Chu-En)"
+      position = "master student"
+
+    [[params.team.members]]
+      img = "Jheng-Jhang.jpg"
+      name = "沈政璋 (Shen Jheng-Jhang)"
+      position = "master student"
+
+
 
   # Client section
     [params.clients_list]
