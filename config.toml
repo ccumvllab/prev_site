@@ -203,12 +203,13 @@ googleAnalytics = ""
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "Chen.Kuo.Chiang.jpg"
-      name = "江振國 (Chiang, Chen-Kuo)[http://www.cs.ccu.edu.tw/~ckchiang/]"
+      name = "江振國 (Chiang, Chen-Kuo)"
       position = "Assistant Professor"
       scope = [
         "Ph.D., National Tsing Hua University, Taiwan",
         "Office: EA414 (extension: 33111)",
-        "Email: ckchiang_AT_cs.ccu.edu.tw"
+        "Email: ckchiang_AT_cs.ccu.edu.tw",
+        "Home: http://www.cs.ccu.edu.tw/~ckchiang/"
       ]
 
     [[params.team.members]]
