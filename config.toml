@@ -206,8 +206,8 @@ googleAnalytics = ""
       name = "江振國 (Chiang, Chen-Kuo)[http://www.cs.ccu.edu.tw/~ckchiang/]"
       position = "Assistant Professor"
       scope = [
-        "Ph.D., National Tsing Hua University, Taiwan"
-        "Office: EA414 (extension: 33111)"
+        "Ph.D., National Tsing Hua University, Taiwan",
+        "Office: EA414 (extension: 33111)",
         "Email: ckchiang_AT_cs.ccu.edu.tw"
       ]
 
