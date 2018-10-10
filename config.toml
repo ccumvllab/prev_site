@@ -150,7 +150,7 @@ googleAnalytics = ""
     [[params.about.events]]
       img = "action-recognition-with-sensor-data.jpg"
       date = "2016"
-      title = "Our Humble Beginnings"
+      title = "基於深度學習之感測資料動作辨識"
       description = "隨著近年來穿戴式裝置的盛行，透過它所收集的感測來做動作辨識的應用也越趨的重要。而電腦視覺領域中，人體動作辨識也越來越顯得重要，在動作辨識中，也開始大量使用多軸穿戴裝置收集的感測資料來進行動作辨識。深度學習被視為機器學習中，最有潛力解決許多電腦視覺問題的方法。卷積神經網絡 (convolutional neural network, CNN) 是深度學習中最受關注的方法之一。我們提出了 MP-CNN 的架構，此架構包含了 D-CNN 和 S-CNN 兩個新的組件來對感測資料進行動作辨識，在 D-CNN 中，我們於訓練階段利用 GMM 來得到每個動作的分布，之後再經由 GMR 和 GMMs 來對輸入的訊號資料分區以及通道校準，並將每個輸入資訊映對到相對應的 CNN 通道。因此，我們也提出一個基於 LZW 的 S-CNN 架構，使用 CNN 來建構出狀態間，輸入資訊和轉移概率的關係，來自動轉換感測資料到狀態轉移概率。最後再將 D-CNN 和 S-CNN 結合成 MP-CNN 來提升整體架構的效能。"
 
     [[params.about.events]]
@@ -215,37 +215,37 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "Zhen-An.jpg"
       name = "朱政安 (Zhu, Zhen-An)"
-      position = "Ph.D student"
+      position = "Ph.D Student"
 
     [[params.team.members]]
       img = "Hao-Ting.jpg"
       name = "李皓庭 (Li, Hao-Ting)"
-      position = "Ph.D student"
+      position = "Ph.D Student"
 
     [[params.team.members]]
       img = "Chan-Shih.jpg"
       name = "胡展碩 (Hu, Chan-Shih)"
-      position = "master student"
+      position = "Master Student"
 
     [[params.team.members]]
       img = "Zi-Ting.jpg"
       name = "黃子庭 (Huang, Zi-Ting)"
-      position = "master student"
+      position = "Master Student"
 
     [[params.team.members]]
       img = "Wen-Hsiu.jpg"
-      name = "楊文綉 (Yang Wen-Hsiu)"
-      position = "master student"
+      name = "楊文綉 (Yang, Wen-Hsiu)"
+      position = "Master Student"
 
     [[params.team.members]]
       img = "Chu-En.jpg"
-      name = "陳主恩 (Chen Chu-En)"
-      position = "master student"
+      name = "陳主恩 (Chen, Chu-En)"
+      position = "Master Student"
 
     [[params.team.members]]
       img = "Jheng-Jhang.jpg"
-      name = "沈政璋 (Shen Jheng-Jhang)"
-      position = "master student"
+      name = "沈政璋 (Shen, Jheng-Jhang)"
+      position = "Master Student"
 
 
 
@@ -340,7 +340,7 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "&copy;2018 CCU MVL Lab."
+    copyright = "&copy;2018 CCU MVL Lab. All right reserved."
 
 #    [[params.footer.social]]
 #      icon = "fa-twitter"
