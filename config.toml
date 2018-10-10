@@ -243,7 +243,7 @@ googleAnalytics = ""
       position = "Master Student"
 
     [[params.team.members]]
-      img = "Jheng-Jhang.jpg"
+      img = "Jheng-Jhang.png"
       name = "沈政璋 (Shen, Jheng-Jhang)"
       position = "Master Student"
 
@@ -340,7 +340,7 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "&copy;2018 CCU MVL Lab. All right reserved."
+    copyright = "Copyright &copy; 2018 CCU MVL Lab. All right reserved. Generated with Hugo and Agency theme."
 
 #    [[params.footer.social]]
 #      icon = "fa-twitter"
