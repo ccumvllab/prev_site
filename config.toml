@@ -240,7 +240,7 @@ googleAnalytics = ""
 
     [[params.team.members]]
       img = "Chan-Shih.jpg"
-      name = "胡展碩 (Hu, Chan-Shih)"
+      name = "胡展碩 (Hu, Chan-Shuo)"
       position = "Master Student"
 
     [[params.team.members]]
