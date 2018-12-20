@@ -192,13 +192,13 @@ googleAnalytics = ""
 
     [[params.about.events]]
       img = "sparse-coding.jpg"
-      date = "Old"
+      date = "~2015"
       title = "稀疏編碼 Sparse Coding"
       description = "近年來 sparse coding 在電腦視覺以及影像處理的領域相當受到歡迎，sparse coding 由輸入資料、dictionary 以及輸入資料對應的線性組合組成。sparse coding 可以用來影像除噪 (denoising)、影像復原 (restoration)，以及影像分類 (classification) 等工作。本實驗室基於稀疏編碼著重於二個研究方向：多重屬性影像分類以及巨量資料的稀疏編碼。"
 
     [[params.about.events]]
       img = "big-data-sparse-coding.jpg"
-      date = "Old"
+      date = "~2015"
       title = "巨量資料的稀疏編碼"
       description = "隨著巨量資料的 dataset 出現，如: ImageNet，設計一個能夠處理大量資料並可以有效分類的分類器是電腦視覺領域的一個重大議題。而 sparse coding 的表現仰賴於 dictionary 的質量，若能習得較好的 dictionary，sparse coding 的表現自然就好。本實驗室針對巨量資料的研究方向為巨量資料的稀疏編碼表示法以及巨量資料的稀疏編碼字典學習。"
 
