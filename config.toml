@@ -73,7 +73,7 @@ googleAnalytics = ""
     #  weight = 10
 
     [[menu.postpend]]
-      url = "https://ccumvllab.github.io/ananke/"
+      url = "https://ccumvllab.github.io/107-MM/"
       name = "Course"
       weight = 9
   # Hero section
