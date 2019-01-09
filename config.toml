@@ -71,8 +71,10 @@ googleAnalytics = ""
       url = "#"
       name = "Demo"
       weight = 10
-
-
+    [[menu.postend]]
+      url = "https://ccumvllab.github.io/ananke/"
+      name = "Course"
+      weight = 9
   # Hero section
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
