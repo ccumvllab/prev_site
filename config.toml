@@ -71,7 +71,7 @@ googleAnalytics = ""
       url = "#"
       name = "Demo"
       weight = 10
-    [[menu.postend]]
+    [[menu.postpend]]
       url = "https://ccumvllab.github.io/ananke/"
       name = "Course"
       weight = 9
