@@ -67,10 +67,11 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-    [[menu.postpend]]
-      url = "#"
-      name = "Demo"
-      weight = 10
+    #[[menu.postpend]]
+    #  url = "#"
+    #  name = "Demo"
+    #  weight = 10
+
     [[menu.postpend]]
       url = "https://ccumvllab.github.io/ananke/"
       name = "Course"
