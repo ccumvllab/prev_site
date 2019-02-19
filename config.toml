@@ -67,15 +67,16 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-    #[[menu.postpend]]
-    #  url = "#"
-    #  name = "Demo"
-    #  weight = 10
-
     [[menu.postpend]]
       url = "https://ccumvllab.github.io/107-MM/"
       name = "Course"
       weight = 9
+
+    [[menu.postpend]]
+      url = "https://www.youtube.com/?gl=TW&hl=zh-tw"
+      name = "English Version"
+      weight = 10
+
   # Hero section
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
@@ -83,8 +84,7 @@ googleAnalytics = ""
     title = "Welcome To Machine Vision and Learning Lab"
     subtitle = "機器視覺與學習實驗室"
     buttonText = "More"
-
-
+    
   # Services section
   [params.services]
     enable = false
