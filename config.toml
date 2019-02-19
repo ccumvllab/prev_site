@@ -73,7 +73,7 @@ googleAnalytics = ""
       weight = 9
 
     [[menu.postpend]]
-      url = "https://www.youtube.com/?gl=TW&hl=zh-tw"
+      url = "https://ccumvllab.github.io/site-en/"
       name = "English Version"
       weight = 10
 
