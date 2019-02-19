@@ -50,7 +50,7 @@ googleAnalytics = ""
     brand = "Machine Vision and Learning Lab"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
+    #services = "Services"
     #portfolio = "Portfolio"
     about = "Research"
     team = "Members"
@@ -76,13 +76,20 @@ googleAnalytics = ""
       url = "https://ccumvllab.github.io/107-MM/"
       name = "Course"
       weight = 9
+
+    [[menu.postpend]]
+      url = "https://ccumvllab.github.io/site/"
+      name = "Chinese Version"
+      weight = 10
+
+
   # Hero section
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "Welcome To Machine Vision and Learning Lab"
-    subtitle = "機器視覺與學習實驗室"
-    buttonText = "English Version"
+    subtitle = ""
+    buttonText = "More"
 
 
   # Services section
@@ -132,7 +139,7 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "Research"
-    subtitle = "本實驗室近年研究方向與成果"
+    subtitle = "The research direction and results of our laboratory in recent years"
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
@@ -142,68 +149,68 @@ googleAnalytics = ""
     [[params.about.events]]
       img = "deep-learning.jpg"
       date = "Now"
-      title = "深度學習"
-      description = "是機器學習研究中的一個新的領域，其概念源於類神經網路的研究。在電腦視覺、影像處理等領域都非常有發展潛力。深度學習方法被用來模擬人類大腦的思考方式，模仿人腦的機制來解釋數據，例如圖像，聲音和文本。以圖像為例，通過組合低階的影像特徵，發展出中階的邊緣、形狀等概念，進而學習高階的意涵，像是物件或人臉。"
+      title = "Deep Learning"
+      description = "It is a new field in machine learning research, and its concept is derived from the study of neural networks. In the field of computer vision, image processing and other fields have great potential for development. Deep learning methods are used to simulate how the human brain thinks, mimicking the mechanisms of the human brain to interpret data such as images, sounds, and text. Taking images as an example, by combining low-level image features, the concepts of intermediate edges, shapes, and the like are developed, and then higher-level meanings, such as objects or faces, are learned."
 
     [[params.about.events]]
       img = "makeup-attack.png"
       date = "2018"
-      title = "將攻擊資訊包含在化妝中對深度學習模型進行攻擊"
-      description = "機器學習的發展非常迅速，在電腦視覺和自然語言處理方面都有很好的成果。有許多深度學習技術被運用在人類日常生活當中例如自動駕駛汽車和人臉辨識系統。如今，人類日常生活漸漸的依賴於深度神經網路可能會導致嚴重的後果，因此神經網路的安全性就變的很重要。因此展現深度神經網路其實有明顯的弱點，我們提出了一種基於生成對抗網絡的方法來生成可以欺騙人臉識別系統的臉部化妝圖片。我們在人類無法察覺的異常化妝照片結果中隱藏了攻擊的擾動信息。實驗結果顯示，我們不但可以生成高畫質的臉部化妝圖像，並且我們的攻擊結果在人臉識別系統中具有很高的攻擊成功率。"
+      title = "Incorporating attack information into makeup to attack deep learning models"
+      description = "Machine learning has evolved very rapidly, with good results in both computer vision and natural language processing. There are many deep learning techniques that are used in everyday life of humans such as autonomous vehicles and face recognition systems. Nowadays, the gradual dependence of human daily life on deep neural networks can lead to serious consequences, so the security of neural networks becomes very important. Therefore, the deep neural network has obvious weaknesses. We propose a method based on generating a confrontation network to generate a facial makeup picture that can deceive the face recognition system. We hide the perturbation of the attack in the results of the abnormal makeup photos that humans can't detect. The experimental results show that we can not only generate high-quality facial makeup images, but also our attack results have a high attack success rate in the face recognition system."
 
     [[params.about.events]]
       img = "music-game.png"
       date = "2018"
-      title = "利用生成對抗網路產生音樂節奏遊戲"
-      description = "音樂節奏遊戲是目前非常熱門的遊戲，我們提出了基於生成對抗網路的方法產生音樂節奏遊戲譜面。音樂被分離為人聲與配樂兩部分，使產生的譜面更貼近真實譜面。 模型包含兩種生成對抗網路的概念：為了加入音樂資訊而採用的Conditional Generative Adversarial Nets (CGANs)以及使模型更好收斂的Improved Wasserstein GAN (WGAN-GP)。"
+      title = "Using the Generative Adversarial Network(GAN) to generate music rhythm games"
+      description = "The music rhythm game is currently a very popular game, and we propose to generate a music rhythm game spectrum based on the method of Generative Adversarial Network. The music is separated into two parts: the vocal and the soundtrack, which makes the generated spectrum closer to the real spectrum. The model consists of two concepts of Generative Adversarial Network: Conditional Generative Adversarial Nets (CGANs) for music information and Improved Wasserstein GAN (WGAN-GP) for better convergence of the model. "
 
    [[params.about.events]]
       img = "scribble-lines-to-painting.jpg"
       date = "2017"
       title = "Be an Artist! Scribble Lines to Painting."
-      description = "我們提出一個全自動化的系統，可以將隨意畫的塗鴉轉化成一幅畫作。然而這是一個嚴峻的挑戰，原因在於輸入的塗鴉可能是非常雜亂並且隱藏著多重物件的， 因此找到這些重複的線條與多重的物件之間的關聯性並不是件簡單的事。在系統當中，我們結合使用了 selective search、sparse coding 與 Convolutional neural network (CNN)， 其中我們運用 selective search 來找尋塗鴉當中可能是物件的部分；接著利用 sparse coding 來找到相對應的元素；最後藉由 CNN 套上欲轉換的風格。最終的實驗結果顯示我們所使用的方法有優越的性能並且產生具有藝術性的作品。"
+      description = "We propose a fully automated system that converts random graffiti into a painting. However, this is a serious challenge because the input graffiti can be very messy and hide multiple objects, so finding the correlation between these repeated lines and multiple objects is not a simple matter. In the system, we use selective search, sparse coding and Convolutional Neural Network (CNN), in which we use selective search to find the part of the object that may be the object of the graffiti; then use sparse coding to find the corresponding element; CNN sets the style to be converted. The final experimental results show that the methods we use have superior performance and produce artistic works."
 
     [[params.about.events]]
       img = "action-recognition-with-sensor-data.jpg"
       date = "2016"
-      title = "基於深度學習之感測資料動作辨識"
-      description = "隨著近年來穿戴式裝置的盛行，透過它所收集的感測來做動作辨識的應用也越趨的重要。而電腦視覺領域中，人體動作辨識也越來越顯得重要，在動作辨識中，也開始大量使用多軸穿戴裝置收集的感測資料來進行動作辨識。深度學習被視為機器學習中，最有潛力解決許多電腦視覺問題的方法。卷積神經網絡 (convolutional neural network, CNN) 是深度學習中最受關注的方法之一。我們提出了 MP-CNN 的架構，此架構包含了 D-CNN 和 S-CNN 兩個新的組件來對感測資料進行動作辨識，在 D-CNN 中，我們於訓練階段利用 GMM 來得到每個動作的分布，之後再經由 GMR 和 GMMs 來對輸入的訊號資料分區以及通道校準，並將每個輸入資訊映對到相對應的 CNN 通道。因此，我們也提出一個基於 LZW 的 S-CNN 架構，使用 CNN 來建構出狀態間，輸入資訊和轉移概率的關係，來自動轉換感測資料到狀態轉移概率。最後再將 D-CNN 和 S-CNN 結合成 MP-CNN 來提升整體架構的效能。"
+      title = "Motion recognition based on deep learning"
+      description = "With the popularity of wearable devices in recent years, the application of motion recognition through the sensing it collects has become more and more important. In the field of computer vision, human motion recognition is becoming more and more important. In motion recognition, a large number of sensing data collected by multi-axis wear devices are also used to perform motion recognition. Deep learning is seen as the most promising way to solve many computer vision problems in machine learning. Convolutional Neural Network (CNN) is one of the most concerned methods in deep learning. We propose the architecture of MP-CNN, which contains two new components of D-CNN and S-CNN to identify the motion data. In D-CNN, we use GMM to get each in the training phase. The distribution of actions, then the GLR and GMMs are used to partition the input signal data and channel calibration, and each input information is mapped to the corresponding CNN channel. Therefore, we also propose an LZW-based S-CNN architecture that uses CNN to construct the relationship between state, input information and transition probability to automatically convert the sensed data to state transition probability. Finally, D-CNN and S-CNN are combined into MP-CNN to improve the overall architecture performance."
 
     [[params.about.events]]
       img = "clothes-style-analysis.jpg"
       date = "2016"
-      title = "衣著樣式分析與流行元素擷取"
-      description = "隨著衣服和配飾樣式越來越多，無論實體或網路店家，消費者要在眾多樣式中找尋自己喜好的樣式將花費大量的時間，因此若消費者能給一些喜歡的服飾照片，系統分析照片中服飾找出相關資訊（如店家地址、搭配相關配飾等）。對店家而言，若能收集到顧客相關服裝風格就可以根據這份資訊調整進貨款式和店裡的擺設，進一步根據消費者的喜好推薦相關配飾給消費者並節省消費者去尋找能搭配相關配飾時間。對成衣商而言，能透過各個店家收集的資料加以分析就能知道那些款式受歡迎那些款式不受歡迎，進而成為下一批新款式的設計參考。"
+      title = "Clothing style analysis and popular element capture"
+      description = "With more and more styles of clothing and accessories, regardless of the physical or online store, consumers will spend a lot of time looking for their favorite styles in many styles, so if consumers can give some photos of their favorite costumes, systematic analysis Find out the relevant information in the photo (such as the store address, matching related accessories, etc.). For the store, if you can collect the relevant clothing styles of the customers, you can adjust the purchase styles and the furnishings in the store according to this information, further recommend the related accessories to consumers according to the preferences of consumers and save consumers to find matching accessories. time. For garment manufacturers, they can analyze the data collected by various stores to know which styles are popular and those styles are unpopular, and thus become the next batch of new style design references. "
 
     [[params.about.events]]
       img = "hoi-for-medical-rehabilitation.png"
       date = "2016-2018"
-      title = "基於復健醫療的人與物件互動辨識深度學習方法"
-      description = "現今社會逐步邁向高齡化後，銀髮族的健康照護是大家都很重視的議題。我們計畫著眼於銀髮族的復健運動與娛樂，希望藉由分析人與物件的互動行為，進一步分析銀髮族使用復健道具或運動器具的運動情形。第一是衡量操作的正確性，期望確切達到復健運動的目的與功能。分析使用復健運動器材的方式，系統有機會提出警示或提供正確姿勢的語音提示，達到復健運動的期望功效；第二是藉由分析的結果提供使用者回饋，如得分高低、任務達成或語音鼓勵，將復健運動轉換成娛樂性較高的方式，增添銀髮族從事復健運動的趣味性，延長使用者復健活動的時間，進一步激勵患者正確並樂於使用復健設施。"
+      title = "Deep learning method for interaction between people and objects based on rehabilitation medical"
+      description = "Nowadays, the society is gradually moving towards aging, and the health care of the silver-haired people is an issue that everyone values. We plan to focus on the rehabilitation and entertainment of the silver-haired people. We hope to further analyze the movements of the silver-haired people using rehabilitation props or exercise equipment by analyzing the interaction between people and objects. The first is to measure the correctness of the operation and expect to achieve the purpose and function of the rehabilitation exercise. Analysis of the use of rehabilitation sports equipment, the system has the opportunity to raise warnings or provide correct posture voice prompts to achieve the desired effect of rehabilitation sports; the second is to provide user feedback through the results of the analysis, such as high or low scores, tasks achieved or Voice encouragement, transforming rehabilitation sports into a more entertaining way, adding the fun of the Yinfa people to the rehabilitation exercise, extending the time of the user's rehabilitation activities, further motivating the patients to be correct and happy to use rehabilitation facilities."
 
     [[params.about.events]]
       img = "outdoor-low-resolution-face-recognition.png"
       date = "2016"
-      title = "戶外低解析人臉辨識"
-      description = "此計畫目標是對於低解析度的人臉影像進行比對，驗證是否為同一人。現今在未受限制的環境中，人臉辨識的效能常會因為姿勢的因素而下降，所以我們建立一個姿勢正規化的方法來復原任意的臉部角度，藉此回復任意狀態的臉部角度以增加人臉辨識的效能。而此計畫使用了兩種 Caffe 之模型架構: Matching-Convolutional NeuralNetwork (M-CNN)、Siamese Neural Network (SNN)。最後經實驗結果得到 SNN 模型準確率達 90% 以上，與 M-CNN 相較之下較高。"
+      title = "Outdoor low resolution face recognition"
+      description = "The goal of this project is to compare low-resolution face images to verify that they are the same person. In today's unrestricted environment, the effectiveness of face recognition often decreases due to posture factors, so we establish a normalization method to restore any face angle, thereby returning the face angle of any state to increase The effectiveness of face recognition. The project uses two Caffe model architectures: Matching-Convolutional NeuralNetwork (M-CNN) and Siamese Neural Network (SNN). Finally, the accuracy of the SNN model is more than 90%, which is higher than that of M-CNN. "
 
     [[params.about.events]]
       img = "image-multi-label-classification.jpg"
       date = "2015"
-      title = "多重屬性影像分類"
-      description = "進行人臉圖片分類時，欲辨識的圖片中難免會有一些配件，如：太陽眼鏡、圍巾、耳環等，或是外在環境因素，如：光線、角度等， 這些配件或是環境因素在人臉圖片中稱之為多重屬性。本實驗室利用既有的 Local Discriminant Embedding (LDE) 演算法作為延伸，達到多重屬性分類的目的。"
+      title = "Multiple attributes image classification"
+      description = "When sorting face images, there are inevitably some accessories in the images to be identified, such as sunglasses, scarves, earrings, etc., or external environmental factors such as light, angle, etc. These accessories or environmental factors are in people. The face image is called multiple attributes. We uses the existing Local Discriminant Embedding (LDE) algorithm as an extension to achieve multiple attribute classification purposes."
 
     [[params.about.events]]
       img = "sparse-coding.jpg"
       date = "~2015"
-      title = "稀疏編碼 Sparse Coding"
-      description = "近年來 sparse coding 在電腦視覺以及影像處理的領域相當受到歡迎，sparse coding 由輸入資料、dictionary 以及輸入資料對應的線性組合組成。sparse coding 可以用來影像除噪 (denoising)、影像復原 (restoration)，以及影像分類 (classification) 等工作。本實驗室基於稀疏編碼著重於二個研究方向：多重屬性影像分類以及巨量資料的稀疏編碼。"
-
+      title = "Sparse Coding"
+      description = "In recent years, sparse coding has been very popular in the field of computer vision and image processing. Sparse coding consists of a linear combination of input data, dictionary and input data. Sparse coding can be used for image denoising, restoration, and classification. The laboratory focuses on two research directions based on sparse coding: multiple attribute image classification and sparse coding of huge amounts of data."
+   
     [[params.about.events]]
       img = "big-data-sparse-coding.jpg"
       date = "~2015"
-      title = "巨量資料的稀疏編碼"
-      description = "隨著巨量資料的 dataset 出現，如: ImageNet，設計一個能夠處理大量資料並可以有效分類的分類器是電腦視覺領域的一個重大議題。而 sparse coding 的表現仰賴於 dictionary 的質量，若能習得較好的 dictionary，sparse coding 的表現自然就好。本實驗室針對巨量資料的研究方向為巨量資料的稀疏編碼表示法以及巨量資料的稀疏編碼字典學習。"
+      title = "Sparse coding of huge amounts of data"
+      description = "With the emergence of huge datasets such as ImageNet, designing a classifier that can process large amounts of data and effectively classify it is a major issue in the field of computer vision. The performance of sparse coding depends on the quality of the dictionary. If you can learn a good dictionary, the performance of sparse coding will naturally be good. The research direction of Our laboratory for massive data is sparse coding representation of huge data and sparse coding dictionary learning of huge data."
 
   # Team section
   [params.team]
