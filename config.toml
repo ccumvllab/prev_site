@@ -50,7 +50,7 @@ googleAnalytics = ""
     brand = "Machine Vision and Learning Lab"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    #services = "Services"
+    services = "Services"
     #portfolio = "Portfolio"
     about = "Research"
     team = "Members"
@@ -82,7 +82,7 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = "Welcome To Machine Vision and Learning Lab"
     subtitle = "機器視覺與學習實驗室"
-    buttonText = "More"
+    buttonText = "English Version"
 
 
   # Services section
